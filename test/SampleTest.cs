@@ -10,7 +10,7 @@ namespace test
         [InlineData(false, false)]
         // [InlineData(true, false)]
         // [InlineData(false, true)]
-        public void Method_PositiveData_Return0(bool a, bool b)
+        public void Method_PositiveData_ReturnFalse(bool a, bool b)
         {
             // Act
             var result = SampleClass.Method(a, b);
@@ -29,8 +29,8 @@ namespace test
 
             // Assert
             Assert.Equal("Something happened", ex.Message);
-            Assert.Equal("USER_DB is not path pattern user_adminXXXX\nParameter name: user-name",
-                ex.InnerException.Message);
+            Assert.Equal("USER_DB is not path pattern user_adminXXXX (Parameter 'a')",
+                ex.InnerException?.Message);
         }
 
         [Theory]

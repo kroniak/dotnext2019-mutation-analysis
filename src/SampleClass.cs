@@ -8,14 +8,14 @@ namespace library
         {
             if (a && b) // mutate to ||
                 return true;
-            else 
+            else
                 return false;
         }
 
         private static bool ExceptionMethod(int a)
         {
             if (a < 0)
-                throw new ArgumentException("USER_DB is not path pattern user_adminXXXX", "user-name");
+                throw new ArgumentException("USER_DB is not path pattern user_adminXXXX", nameof(a));
 
             return true;
         }
@@ -32,7 +32,7 @@ namespace library
                 throw new Exception("Something happened", e);
             }
 
-            return null;
+            return string.Empty;
         }
 
         public static int ForMethod()

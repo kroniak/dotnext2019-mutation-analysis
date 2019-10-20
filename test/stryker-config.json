@@ -1,12 +1,7 @@
 {
   "stryker-config": {
     "reporters": ["progress", "html"],
-    "log-level": "info",
-    "log-file": false,
-    "max-concurrent-test-runners": 4,
-    "threshold-high": 80,
-    "threshold-low": 70,
-    "threshold-break": 60,
+    "max-concurrent-test-runners": 6,
     "excluded-mutations": []
   }
 }
