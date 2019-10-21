@@ -4,7 +4,7 @@ mono: none
 dotnet: 3.0.100
 install:
   - dotnet restore
-  - dotnet tool install -g dotnet-stryker
+  - dotnet tool restore
 script:
   - ./scripts/test.sh
   - ./scripts/test.mutate.sh
