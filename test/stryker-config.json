@@ -1,7 +1,11 @@
 {
   "stryker-config": {
+    "project-file": "library.csproj",
     "reporters": ["progress", "html"],
     "max-concurrent-test-runners": 6,
+    "threshold-high": 80,
+    "threshold-low": 70,
+    "threshold-break": 60,
     "excluded-mutations": []
   }
 }

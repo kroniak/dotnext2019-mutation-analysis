@@ -1,0 +1,10 @@
+language: csharp
+solution: example.sln
+mono: none
+dotnet: 3.0.100
+install:
+  - dotnet restore
+  - dotnet tool install -g dotnet-stryker
+script:
+  - ./script/test.sh
+  - ./script/test.mutate.sh
