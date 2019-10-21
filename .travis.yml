@@ -6,5 +6,5 @@ install:
   - dotnet restore
   - dotnet tool install -g dotnet-stryker
 script:
-  - ./script/test.sh
-  - ./script/test.mutate.sh
+  - ./scripts/test.sh
+  - ./scripts/test.mutate.sh
