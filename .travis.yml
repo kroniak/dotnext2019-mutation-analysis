@@ -5,6 +5,7 @@ dotnet: 3.0.100
 install:
   - dotnet restore
   - dotnet tool restore
+  - export PATH=$PATH:/home/travis/.dotnet/tools
 script:
   - ./scripts/test.sh
   - ./scripts/test.mutate.sh
