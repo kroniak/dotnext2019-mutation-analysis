@@ -1,7 +1,7 @@
 {
   "stryker-config": {
     "project-file": "library.csproj",
-    "reporters": ["progress", "html"],
+    "reporters": ["cleartext", "html", "json"],
     "max-concurrent-test-runners": 6,
     "threshold-high": 80,
     "threshold-low": 70,
