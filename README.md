@@ -4,8 +4,8 @@
 
 ## Литература
 
-[Assessing Test Quality by David Schuler](https://d-nb.info/1051432480/34)
-[Mutation Testing by Filip van Laenen](https://leanpub.com/mutationtesting)
+1. [Assessing Test Quality by David Schuler](https://d-nb.info/1051432480/34)
+2. [Mutation Testing by Filip van Laenen](https://leanpub.com/mutationtesting)
 
 ## Презентация
 
@@ -278,7 +278,7 @@ public void Some<T>(object arg, IEnumerable<T> list) {
 ```
 
 ## LINQ мутации
- 
+
 LINQ мутации распространенный считается замена First на Last, Any на All, FirstOrDefault на Default.
 
 ```c#
