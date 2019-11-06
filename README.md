@@ -1,7 +1,5 @@
 # dotnext 2019 MSK Мутационный анализ
 
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fapi%2Fgithub.com%2Fkroniak%2Fdotnext2019-mutation-analysis%2Fmaster)](https://stryker-mutator.github.io)
-
 ## Литература
 
 1. [Assessing Test Quality by David Schuler](https://d-nb.info/1051432480/34)
